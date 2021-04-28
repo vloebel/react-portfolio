@@ -3,7 +3,7 @@
     "id": 1,
     "name": "back2work",
     "skills": "MVC architecture (full stack), mySql/Sequelize, handlebars.js",
-    "srcImg": "./back2work.jpg",
+    "srcImg": "./assets/images/back2work.jpg",
     "srcAlt": "back2work landing page",
     "appLink": "https://vllback2work.herokuapp.com"
   },

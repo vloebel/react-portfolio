@@ -8,7 +8,7 @@ import Resume from './pages/Resume';
 
 function PortfolioContainer() {
   // Using useState, set the default value for currentPage to 'Home'
-  const [currentPage, handlePageChange] = useState('Home');
+  const [currentPage, handlePageChange] = useState('Portfolio');
 
   // The renderPage method uses a switch statement to render the appropriate current page
   const renderPage = () => {

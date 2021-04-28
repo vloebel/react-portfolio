@@ -2,10 +2,10 @@ import React, { useState } from 'react';
 import NavTabs from './NavTabs';
 import Home from './pages/Home';
 import About from './pages/About';
-import Projects from './pages/Projects';
+import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
 
-function Portfolio() {
+function PortfolioContainer () {
   // Using useState, set the default value for currentPage to 'Home'
   const [currentPage, handlePageChange] = useState('Home');
 
@@ -14,8 +14,8 @@ function Portfolio() {
     switch (currentPage) {
       case 'About':
         return <About />;
-      case 'Projects':
-        return <Projects />;
+      case 'Portfolio':
+        return <Portfolio />;
       case 'Contact':
         return <Contact />;
       default:
@@ -33,4 +33,4 @@ function Portfolio() {
   );
 }
 
-export default Portfolio;
+export default PortfolioContainer;

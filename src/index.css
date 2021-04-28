@@ -1,3 +1,17 @@
+:root {
+  --primary: #8c54ff;
+  --secondary: #f3a847;
+  --tertiary: #b12704;
+  --light: #fafafa;
+  --dark: #000000;
+  --darker: #111111;
+  --error: rgb(228, 46, 1);
+  --spacing-one: calc(1rem * 0.5);
+  --spacing-two: calc(1rem);
+  --spacing-three: calc(3rem);
+  --spacing-five: calc(2.5rem);
+}
+
 * {
   margin: 0 auto;
   max-width: 90%;
@@ -9,7 +23,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding:1em;
+  padding:var(--spacing-three);
 }
 .developer {
   font-size: 2em;
@@ -29,5 +43,8 @@ header {
 
 .nav a{
   text-decoration: none;
+}
 
+.active {
+  color:red;
 }

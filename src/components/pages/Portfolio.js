@@ -1,4 +1,5 @@
 import React from "react";
+const IMGPATH = "../../assets/images/"
 const projectList = [
   {
     "id": "1",

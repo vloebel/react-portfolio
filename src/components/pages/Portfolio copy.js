@@ -1,6 +1,6 @@
 import React from "react";
 import myProjectList from './portfolio.json';
-// THIS FILE IS BEING REPLACED BY SLIDESHOW
+
 // const IMGPATH = "../../assets/images/"
 
 // (props) ?

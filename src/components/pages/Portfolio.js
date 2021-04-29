@@ -23,8 +23,6 @@ const Portfolio = () => {
           <h3>{myProjectList[pIndex].skills}</h3>
         <a href={myProjectList[pIndex].appLink}>
         <img src={myProjectList[pIndex].srcImg} alt={myProjectList[pIndex].alt} />
-
-         {/* <img src={require(`${myProjectList[pIndex].srcImg}`).default} alt={myProjectList[pIndex].alt} /> */}
           </a>
         </div>                
     </section>

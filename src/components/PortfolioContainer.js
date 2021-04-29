@@ -2,7 +2,8 @@ import React, { useState } from 'react';
 import NavTabs from './NavTabs';
 import About from './pages/About';
 import Contact from './pages/Contact';
-import Portfolio from './pages/portfolio';
+import Portfolio from './pages/Portfolio';
+import Footer from './pages/Footer';
 import Resume from './pages/Resume';
 
 function PortfolioContainer() {
@@ -31,6 +32,7 @@ function PortfolioContainer() {
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
       {/* Call the renderPage function passing in the currentPage */}
       <div>{renderPage(currentPage)}</div>
+      <div><Footer /></div>
     </div>
   );
 }

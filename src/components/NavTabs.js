@@ -4,7 +4,7 @@ import React from 'react';
 function NavTabs(props) {
   const tabs = ['About', 'Portfolio', 'Contact', 'Resume'];
   return (
-    <header>
+    <header className="portfolio-header">
       <div className="developer">
         Vicky Loebel
       </div>
@@ -13,8 +13,8 @@ function NavTabs(props) {
           <li className="nav-item" key={tab}>
             <a
               href={'#' + tab.toLowerCase()}
-              // Whenever a tab is clicked on,
-              // the current page is set through the handlePageChange props.
+              // Clicking a tab sets
+              // page w handlePageChange props.
               onClick={() => props.handlePageChange(tab)}
               className={
                 props.currentPage === tab ? 'nav-link active' : 'nav-link'

@@ -1,11 +1,17 @@
 :root {
-  --primary: #8c54ff;
-  --secondary: #f3a847;
-  --tertiary: #b12704;
-  --light: #fafafa;
-  --dark: #000000;
-  --darker: #111111;
-  --error: rgb(228, 46, 1);
+  /* five color pallette */
+  --color1: #d1e8e2;
+  --color2: #ffcb9a;
+  --color3: #d9b08c;
+  --color4: #116466;
+  --color5: #2c3531;
+
+  /* accent  */
+  --light: var(--color1);
+  --dark: var(--color5);
+  --darker: #111413;
+
+  
   --spacing-one: calc(1rem * 0.5);
   --spacing-two: calc(1rem);
   --spacing-three: calc(3rem);
@@ -15,11 +21,17 @@
 * {
   margin: 0 auto;
   max-width: 90%;
-}
+  font-family: 'Roboto', sans-serif;
 
+  color:var(--color3);
+  background-color: var(--darker);
+}
+.portfolio-header {
+  color: var(--light);
+
+}
 header {
   width:100%;
-  background-color: yellow;
   display: flex;
   flex-wrap:wrap;
   align-items: center;
@@ -39,15 +51,24 @@ header {
   flex-wrap:wrap;
   align-items: center;
   justify-content: space-between;
-  padding:5%;
-  margin:5%;
   gap:2em;
+}
+
+.nav a:hover{
+  color: var(--pallette-two);
 }
 
 .nav a{
   text-decoration: none;
+  color: var(--light);
+
 }
+
 
 .active {
   color:red;
+}
+
+.bio-pic {
+  size:3rem;
 }

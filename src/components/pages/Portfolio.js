@@ -1,25 +1,34 @@
-import React from "react";
+import { useState } from 'react'
+import Button from '../Button'
 import myProjectList from './portfolio.json';
-// THIS FILE IS BEING REPLACED BY SLIDESHOW
-// const IMGPATH = "../../assets/images/"
 
-// (props) ?
 const Portfolio = () => {
+  const [pIndex, setpIndex] = useState(0);
+  const maxIndex = myProjectList.length - 1;
+
   return (
-    // return a section containing item divs
-    <section className="portfolio-section">
-      {myProjectList.map(item => (
-        <div className="portfolio-item" key={item.id}>
-          <h2>{item.name}</h2>
-          <h3>{item.skills}</h3>
-          <a href={item.appLink}>
-            <img src={require(`../../assets/images/${item.srcImg}`).default} alt={item.alt} />
+    <section>
+      <div>
+        <h1>{myProjectList[pIndex].name}</h1>
+        <Button color={'steelblue'}
+          text={'Back'}
+          onClick={() => (pIndex === 0) ? setpIndex(maxIndex) : setpIndex(pIndex - 1)}
+        /> 
+        <Button color={'steelblue'}
+          text={'Next'}
+          onClick={() => (pIndex === maxIndex) ? setpIndex(0) : setpIndex(pIndex + 1)}
+        /> 
+      </div>
+        <div className="portfolio-item" >
+          <h3>{myProjectList[pIndex].skills}</h3>
+        <a href={myProjectList[pIndex].appLink}>
+        <img src={myProjectList[pIndex].srcImg} alt={myProjectList[pIndex].alt} />
+
+            <img src={require(`${myProjectList[pIndex].srcImg}`).default} alt={myProjectList[pIndex].alt} />
           </a>
-        </div>
-      )
-      )}
+        </div>                
     </section>
   )
-}
+};
 
-export default Portfolio;
+export default Portfolio

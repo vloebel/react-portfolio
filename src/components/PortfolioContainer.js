@@ -1,9 +1,8 @@
 import React, { useState } from 'react';
 import NavTabs from './NavTabs';
-// import Home from './pages/Home';
 import About from './pages/About';
-import Slideshow from './pages/Slideshow';
 import Contact from './pages/Contact';
+import Portfolio from './pages/Portfolio';
 import Resume from './pages/Resume';
 
 function PortfolioContainer() {
@@ -16,13 +15,13 @@ function PortfolioContainer() {
       case 'About':
         return <About />;
       case 'Portfolio':
-        return <Slideshow />;
+        return <Portfolio />;
       case 'Contact':
         return <Contact />;
       case 'Resume':
         return <Resume />;
       default:
-        return <Slideshow />;
+        return <Portfolio />;
     }
   };
 

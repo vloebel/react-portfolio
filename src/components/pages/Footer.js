@@ -1,10 +1,10 @@
 import React from "react";
 
 const Footer = () => (
-    <article id="contact-me" class="flexbox-container">
+    <article id="contact-me" className="flexbox-container">
     <h2>Contact Me</h2>
     <div>
-      <ul class="contact-info">
+      <ul className="contact-info">
         {/* <li><a href="tel:1-520-760-3300">520 760-3300</a></li> */}
         <li><a href="https://vickyloebel.com/wp/">Vicky Loebel.com</a> </li>
         <li><a href="https://github.com/vloebel">GitHub</a> </li>

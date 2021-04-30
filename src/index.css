@@ -1,7 +1,6 @@
 
 /* exo-2-regular - latin */
 
-
 :root {
   /* five color pallette */
   --color1: #d1e8e2;
@@ -25,11 +24,16 @@
 * {
   margin: 0 auto;
   max-width: 90%;
-  font-family: 'Exo 2', Helvetica, Arial, sans-serif;
 
   color:var(--color3);
   background-color: var(--darker);
 }
+
+body {
+  font-family: 'Exo 2', sans-serif;
+}
+
+
 .portfolio-header {
   color: var(--light);
 
@@ -75,4 +79,33 @@ header {
 
 .bio-pic {
   size:3rem;
+}
+
+
+.bio-pic {
+  float:left;
+  margin:0 10px 10px 0;
+  max-width:20%;
+  height:auto;
+}
+
+
+
+/* ********* CONTACT INFO STYLES ********** */
+.contact-info {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none; 
+  justify-content:flex-end;
+}
+
+.contact-info li  {
+  /* padding: 10px 15px; */
+  flex: 1;
+  flex-basis: content;
+  color: var(--text-color1);
+  font-size: 1em;
+}
+li a {
+  text-decoration:none;
 }

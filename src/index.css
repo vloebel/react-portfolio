@@ -21,14 +21,18 @@
   --spacing-five: calc(2.5rem);
 }
 
-* {
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
   margin: 0 auto;
   max-width: 90%;
   color:var(--color3);
   background-color: var(--darker);
-  box-sizing: border-box;
-
 }
+
 
 body {
   font-family: 'Exo 2', sans-serif;
@@ -70,7 +74,6 @@ header {
 .nav a{
   text-decoration: none;
   color: var(--light);
-
 }
 
 
@@ -92,49 +95,42 @@ header {
 
 /* ********* CONTACT FORM STYLES ********** */
 
-.contact-container {
-  margin: 0, auto;
-}
-
-#contact-form {
+.contact-form {
   background-color:var(--color4);
-  width: 75%;
-  padding-top: 5%;
-  margin: 5%;
+  width: 90%;
+  padding: 1rem;
+  margin: 1rem;
   border-radius: 5%;
 }
-
+/* div holding each input field */
 .contact-field {
   background-color: var(--color2);
-  padding-top:2%;
-  padding-bottom:2%;
-  border: 1px solid var(--dark);
+  margin:0, 0;
+  border: 1px solid var(--color3);
 }
 
+.contact-field:hover {
+  margin:0, 0;
+  border: 1px solid var(--darker);
+}
 
+/* text of the input labels */
 label{
   background-color:var(--color2);
   color:var(--color4);
   display:block;
   letter-spacing:1px;
+  
 }
-input {
-  width:100%;
-  font-size: 0.8rem;
-  background-color: var(--color1);
-  border: 1px solid var(--dark);
-  outline: none;
-}
-
 .input-field {
   border: 1px solid var(--primary-color);
   display: block;
   padding: 7px 15px;
-  font-size: 16px;
+  font-size: 1em;
   color:var(--color5);
   width: 100%;
-  margin-bottom: 15px;
-  background-color: var(--color1);;
+  margin-bottom: 2%;
+  background-color: var(--color1);
 }
 
 input:focus {
@@ -147,8 +143,32 @@ textarea {
   height: 120px;
   border: 3px solid #cccccc;
   background-color: var(--color1);
-
   padding: 5px;
+}
+
+.error-text {
+text-align:center;
+  padding: 2px;
+  margin: 2px, 0;
+  color: var(--color2);
+}
+.btn-submit{
+  display:block;
+  width: 100%;
+  background-color: var(--color2);
+  color: var(--color4);
+  border: 1px solid var(--dark);
+  border-radius: 5px;
+  font-size: 16px;
+  padding: .5rem;
+  /* margin: 20px, 10px; */
+}
+
+
+.btn-submit:hover{
+  background-color: var(--color3);
+  border: 1px solid var(--darker);
+
 }
 
 /* ********* FOOTER STYLES ********** */

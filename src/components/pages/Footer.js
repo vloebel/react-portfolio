@@ -1,8 +1,7 @@
 import React from "react";
 
 const Footer = () => (
-    <article id="contact-me" className="flexbox-container">
-    <h2>Contact Me</h2>
+    <article className="flexbox-container footer">
     <div>
       <ul className="contact-info">
         {/* <li><a href="tel:1-520-760-3300">520 760-3300</a></li> */}

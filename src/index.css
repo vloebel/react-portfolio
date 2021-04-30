@@ -67,18 +67,22 @@ header {
   gap:2em;
 }
 
-.nav a:hover{
-  color: var(--pallette-two);
-}
-
 .nav a{
   text-decoration: none;
-  color: var(--light);
+  color: var(--color1);
 }
+
+.nav a:hover{
+  color: var(--color2);
+}
+
 
 
 .active {
   color:red;
+}
+li a {
+  text-decoration:none;
 }
 
 .bio-pic {
@@ -172,6 +176,10 @@ text-align:center;
 }
 
 /* ********* FOOTER STYLES ********** */
+.footer {
+margin:1rem;
+}
+
 .contact-info {
   display: flex;
   flex-wrap: wrap;
@@ -179,13 +187,14 @@ text-align:center;
   justify-content:flex-end;
 }
 
-.contact-info li  {
+.contact-info a  {
   /* padding: 10px 15px; */
   flex: 1;
   flex-basis: content;
-  color: var(--text-color1);
+  color: var(--color2);
   font-size: 1em;
 }
-li a {
-  text-decoration:none;
+
+.contact-info a:hover{
+  color: var(--light);
 }

@@ -102,11 +102,7 @@ hr {
   max-height:50 vh;
 }
 
-@media screen and (max-width:520px){
-  .nav {
-    gap:5px;
-  }
-}
+
 .nav a{
   text-decoration: none;
   color: var(--color1);
@@ -328,4 +324,15 @@ font-size:smaller;
 .contact-info a:hover{
   color: var(--light);
 }
+/* MEDIA QUERIES for smaller screens */
 
+@media screen and (max-width:520px){
+  .nav {
+    gap:5px;
+  }
+  .project-img {
+    margin-left: 1%;
+    margin-top:1%;
+    max-height:90 vh;
+  }
+}

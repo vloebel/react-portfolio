@@ -4,7 +4,7 @@
 ## May 2, 2021
 ### Vicky Loebel
 
-Deployed Resume: [vloebel.github.io/react-resume](https://vloebel.github.io/Portfolio/)   
+Deployed Resume: [vloebel.github.io/react-resume](http://vloebel.github.io/react-portfolio/)   
 GitHub Repo: [vloebel.react-portfolio](https://vloebel.github.io/Portfolio/) 
 ## Description  
 A REACT.js portfolio of  web-development projects written or modified by Vicky Loebel.  

@@ -235,6 +235,7 @@ textarea {
   padding-right:1em;;
 }
  
+.btn a,
 .btn-resume a,
 .btn-project a {
   color: var(--light);
@@ -245,11 +246,12 @@ textarea {
   padding: 20px;
   line-height:normal;
 }
-
+.btn:hover,
 .btn-project a:hover,
 .btn-resume a:hover {
  color:var(--color3);
 }
+
 
 .flex-container {
   display:flex;

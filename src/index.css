@@ -92,9 +92,9 @@ hr {
   margin-bottom: 20px;
 }
 
-/* .page-container{
-  height:55vh;
-} */
+.page-container{
+  min-height:55vh;
+}
 
 .project-img {
   margin-left: 5%;
@@ -204,6 +204,8 @@ textarea {
   color: var(--color2);
 }
 
+
+
 .btn-submit{
   display:block;
   width: 100%;
@@ -232,12 +234,22 @@ textarea {
   color: var(--light);
 }
 
-.btn-project, .btn-resume a{
+.btn {
+  padding-right:1em;;
+}
+ 
+.btn-resume a,
+.btn-project a {
   color: var(--light);
   background-color: var(--color4);
   text-decoration:none;
 }
+.btn-project {
+  padding: 20px;
+  line-height:normal;
+}
 
+.btn-project a:hover,
 .btn-resume a:hover {
  color:var(--color3);
 }
@@ -255,19 +267,18 @@ textarea {
 
 .project-title {
   font-size:1.5em; 
-  text-align:left;
+  text-align:center;
   flex-basis:80%;
 }
 
 .project-info {
   padding-left:20px;
+  padding-top:20px
 }
 .project-info > h3 {
 color: var(--color1);
 }
-.btn-project {
-  line-height:normal;
-}
+
 
 
 /* ********* FOOTER STYLES ********** */
@@ -280,8 +291,19 @@ color: var(--color1);
   display: flex;
   flex-wrap: wrap;
   list-style: none; 
-  justify-content:flex-start;
+  justify-content:space-evenly;
 }
+
+.project-links a {
+  color:var(--light);
+  vertical-align:middle;
+}
+
+
+.project-links a:hover {
+  color:var(--color2);
+}
+
 
 .contact-info a  {
   /* padding: 10px 15px; */

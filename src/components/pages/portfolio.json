@@ -4,42 +4,48 @@
     "skills": "MVC, mySql/Sequelize, Handlebars.js",
     "srcImg": "assets/images/back2work.jpg",
     "srcAlt": "back2work landing page",
-    "appLink": "https://vllback2work.herokuapp.com"
+    "appLink": "https://vllback2work.herokuapp.com",
+    "githubLink": "https://github.com/vloebel/back2work"
   },
   {
     "name": "Visit America",
     "skills": "HTML/Materialize, JavaScript, API",
     "srcImg": "assets/images/VisitAmerica.jpg",
     "srcAlt": "Visit America",
-    "appLink": "https://vloebel.github.io/happycamper"
+    "appLink": "https://vloebel.github.io/happycamper",
+    "githubLink": "https://github.com/vloebel/happycamper"
   },
   {
     "name": "Day-Scheduler",
     "skills": "JavaScript",
     "srcImg": "assets/images/day-schedule.jpg",
     "srcAlt": "day scheduler",
-    "appLink": "https://vloebel.github.io/day-scheduler"
+    "appLink": "https://vloebel.github.io/day-scheduler",
+    "githubLink":"https://github.com/vloebel/day-scheduler"
   },
   {
     "name": "Any-budget expense tracker",
     "skills": "Progressive web applcation, MongoDB",
     "srcImg": "assets/images/any-budget.jpg",
     "srcAlt": "budget example",
-    "appLink": "https://vl-any-budget.herokuapp.com/"
+    "appLink": "https://vl-any-budget.herokuapp.com/",
+    "githubLink": "https://github.com/vloebel/any-budget"
   },
   {
     "name": "Talk-back",
     "skills": "NoSql Mongoose/MongoDB",
     "srcImg": "assets/images/talk-back-insomnia.jpg",
     "srcAlt": "talk-back social media back-end",
-    "appLink": "https://youtu.be/txrRT5tkMtU"
+    "appLink": "https://youtu.be/txrRT5tkMtU",
+    "githubLink": "https://github.com/vloebel/talkback"
   },
   {
     "name": "just-tech-news ",
     "skills": "CMS (blog) / MVC architecture ",
     "srcImg": "assets/images/just-tech-news.jpg",
     "srcAlt": "just-tech blog",
-    "appLink": "https://vloebel-cms.herokuapp.com"
+    "appLink": "https://vloebel-cms.herokuapp.com",
+    "githubLink": "https://github.com/vloebel/just-tech-news"
   }
 
 ]

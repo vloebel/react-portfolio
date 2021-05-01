@@ -22,7 +22,7 @@ function PortfolioContainer() {
       case 'Resume':
         return <Resume />;
       default:
-        return <Portfolio />;
+        return <About />;
     }
   };
 

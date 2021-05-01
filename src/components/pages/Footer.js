@@ -8,7 +8,8 @@ const Footer = () => (
         <li><a href="https://vickyloebel.com/wp/">Vicky Loebel.com</a> </li>
         <li><a href="https://github.com/vloebel">GitHub</a> </li>
         <li><a href="https://www.linkedin.com/in/vicky-loebel-4832a6201/">LinkedIn</a></li>
-      </ul>
+        <li><a href="https://mobile.twitter.com/vickyloebel">Twitter</a></li>
+    </ul>
     </div>
   </article>
 );

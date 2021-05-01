@@ -280,6 +280,15 @@ textarea {
 color: var(--color1);
 }
 
+.proficiencies {
+  margin: 1%;
+  padding:0;
+  padding-top:1em;
+}
+.skillset{
+font-size:smaller;
+
+}
 
 
 /* ********* FOOTER STYLES ********** */
@@ -294,6 +303,8 @@ color: var(--color1);
   list-style: none; 
   justify-content:space-evenly;
 }
+
+
 
 .project-links a {
   color:var(--light);

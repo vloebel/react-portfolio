@@ -1,0 +1,13 @@
+[
+{"name":"HTML"}, 
+{"name": "CSS"}, 
+{"name": "JavaScript"}, 
+{"name": "MVC Architecture"}, 
+{"name": "Handlebars"}, 
+{"name": "Node.js"}, 
+{"name": "Express.js"}, 
+{"name": "SQL/Sequelize"}, 
+{"name": "MongoDB/Mongoose"}, 
+{"name": "NoSQL"}, 
+{"name": "React"}
+]

@@ -6,25 +6,23 @@ const Portfolio = () => {
   const [pIndex, setpIndex] = useState(0);
   const maxIndex = myProjectList.length - 1;
 
+  
   return (
     <section>
-      <div className="flex-container">
-        <Button className="btn"
-          text={'Back'}
-          onClick={() => (pIndex === 0) ? setpIndex(maxIndex) : setpIndex(pIndex - 1)}
-        /> 
-        <h1 className="inline-header">{myProjectList[pIndex].name}</h1>
-        <Button className="btn"
+      <div className="flex-project">
+        <Button className="btn-project"
           text={'Next'}
           onClick={() => (pIndex === maxIndex) ? setpIndex(0) : setpIndex(pIndex + 1)}
-        /> 
+        />
+        <h1 className="project-title">{myProjectList[pIndex].name}</h1>
       </div>
-        <div className="flex-container" >
-          <h3>{myProjectList[pIndex].skills}</h3>
+        <hr className="hr-project"></hr>
+      <div className="project-info">
+        <h3>{myProjectList[pIndex].skills}</h3>
         <a href={myProjectList[pIndex].appLink}>
-        <img src={myProjectList[pIndex].srcImg} alt={myProjectList[pIndex].alt} />
-          </a>
-        </div>                
+          <img className="project-img" src={myProjectList[pIndex].srcImg} alt={myProjectList[pIndex].alt} />
+        </a>
+      </div>
     </section>
   )
 };

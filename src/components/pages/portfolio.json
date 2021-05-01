@@ -1,28 +1,28 @@
 [
   {
     "name": "back2work",
-    "skills": "MVC architecture (full stack), mySql/Sequelize, handlebars.js",
+    "skills": "MVC architecture, mySql/Sequelize, Handlebars.js",
     "srcImg": "assets/images/back2work.jpg",
     "srcAlt": "back2work landing page",
     "appLink": "https://vllback2work.herokuapp.com"
   },
   {
     "name": "Visit America",
-    "skills": "HTML/Materialize, javascript, front-end API",
+    "skills": "HTML/Materialize, JavaScript, Front-end API",
     "srcImg": "assets/images/VisitAmerica.jpg",
     "srcAlt": "Visit America",
     "appLink": "https://vloebel.github.io/happycamper"
   },
   {
     "name": "Day-Scheduler",
-    "skills": "javascript",
+    "skills": "JavaScript",
     "srcImg": "assets/images/day-schedule.jpg",
     "srcAlt": "day scheduler",
     "appLink": "https://vloebel.github.io/day-scheduler"
   },
   {
     "name": "Any-budget Expense Tracker",
-    "skills": "Progressive Web Applcation, MongoDB",
+    "skills": "Progressive web applcation, MongoDB",
     "srcImg": "assets/images/any-budget.jpg",
     "srcAlt": "budget example",
     "appLink": "https://vl-any-budget.herokuapp.com/"
@@ -35,8 +35,8 @@
     "appLink": "https://youtu.be/txrRT5tkMtU"
   },
   {
-    "name": "just-tech-news (blog)",
-    "skills": "CMS blog / MVC architecture",
+    "name": "just-tech-news ",
+    "skills": "CMS (blog) / MVC architecture ",
     "srcImg": "assets/images/just-tech-news.jpg",
     "srcAlt": "just-tech blog",
     "appLink": "https://vloebel-cms.herokuapp.com"

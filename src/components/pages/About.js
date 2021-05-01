@@ -4,9 +4,11 @@ const About = () => (
   <div>
 
     <img className="bio-pic" src={require(`../../assets/images/vickyphoto.jpg`).default} alt="vicky loebel headshot" />
-    
-    Vicky Loebel began her technical career as a systems programmer on the flight simulators at the NASA Ames research facility in Silicon Valley, followed by several years' experience as a contract coder and software technical writer. Her education includes a BA in Lingustics from the University of Wisconsin and a Masters of Computer Science from San Jose State. She is currently enrolled in the University of Arizona's Full-Stack Web Developemnt Bootcamp with the goal of seeking freelance work in website design and development.
-    
+    <p>Hi! I'm Vicky, and I love tackling new concepts and expressing them clearly.</p>
+      <p>Whether that means writing code, documentation, tutorials, or original content, my passion is bringing ideas into the world.</p>
+      <p>Download my resume, or send me a note. I can't wait to start working together. </p>
+
+  
   </div>
 );
 

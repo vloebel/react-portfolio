@@ -33,11 +33,14 @@ html {
   background-color: var(--darker);
 }
 
-
 body {
   font-family: 'Exo 2', sans-serif;
+  lineheight: 1.2em;
 }
 
+p{
+  margin:.5em;
+}
 
 .portfolio-header {
   color: var(--light);
@@ -49,7 +52,8 @@ header {
   flex-wrap:wrap;
   align-items: center;
   justify-content: space-between;
-  padding:var(--spacing-three);
+  padding-top:2rem;
+  padding-bottom:2rem;
 }
 .developer {
   font-size: 2em;
@@ -62,11 +66,14 @@ header {
   list-style: none;
   display: flex;
   flex-wrap:wrap;
-  align-items: center;
-  justify-content: space-between;
+  align-items: flex-start;
+  /* justify-content: space-between; */
   gap:2em;
 }
 
+.nav li{
+  color:red;
+}
 .nav a{
   text-decoration: none;
   color: var(--color1);
@@ -76,8 +83,20 @@ header {
   color: var(--color2);
 }
 
+h1 {
+  font-weight:normal;
+  font-size: 1.5em;
+}
+h2 {
+  font-weight: normal;
+  font-size: 1.25em;
+  color: var(--color1);
 
+}
 
+.inline-header {
+  display: inline
+}
 .active {
   color:red;
 }
@@ -156,6 +175,7 @@ text-align:center;
   margin: 2px, 0;
   color: var(--color2);
 }
+
 .btn-submit{
   display:block;
   width: 100%;
@@ -175,22 +195,49 @@ text-align:center;
 
 }
 
+.btn, .btn-resume{
+  background-color: var(--color4);
+  /* border: 1px solid var(--dark); */
+  border-radius: 5px;
+  font-size: 1em;
+  padding: .5rem;
+  /* margin: 20px, 10px; */
+}
+
+.btn {
+  padding:.25em;
+}
+.btn-resume a{
+  background-color: var(--color4);
+  color: var(--light);
+  text-decoration:none;
+}
+
+.btn-resume a:hover {
+  background-color:var(--color3);
+}
+
+.flex-container {
+  display:flex;
+  flex-wrap:wrap;
+}
+
 /* ********* FOOTER STYLES ********** */
 .footer {
 margin:1rem;
 }
 
-.contact-info {
+.horizontal-list {
   display: flex;
   flex-wrap: wrap;
   list-style: none; 
-  justify-content:flex-end;
+  justify-content:flex-start;
 }
 
 .contact-info a  {
   /* padding: 10px 15px; */
-  flex: 1;
-  flex-basis: content;
+  /* flex: 1;
+  flex-basis: content; */
   color: var(--color2);
   font-size: 1em;
 }

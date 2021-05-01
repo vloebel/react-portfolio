@@ -8,18 +8,18 @@ const Portfolio = () => {
 
   return (
     <section>
-      <div>
-        <h1>{myProjectList[pIndex].name}</h1>
-        <Button color={'steelblue'}
+      <div className="flex-container">
+        <Button className="btn"
           text={'Back'}
           onClick={() => (pIndex === 0) ? setpIndex(maxIndex) : setpIndex(pIndex - 1)}
         /> 
-        <Button color={'steelblue'}
+        <h1 className="inline-header">{myProjectList[pIndex].name}</h1>
+        <Button className="btn"
           text={'Next'}
           onClick={() => (pIndex === maxIndex) ? setpIndex(0) : setpIndex(pIndex + 1)}
         /> 
       </div>
-        <div className="portfolio-item" >
+        <div className="flex-container" >
           <h3>{myProjectList[pIndex].skills}</h3>
         <a href={myProjectList[pIndex].appLink}>
         <img src={myProjectList[pIndex].srcImg} alt={myProjectList[pIndex].alt} />

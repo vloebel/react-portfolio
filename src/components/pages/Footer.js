@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => (
     <article className="flexbox-container footer">
     <div>
-      <ul className="contact-info">
+      <ul className="horizontal-list">
         {/* <li><a href="tel:1-520-760-3300">520 760-3300</a></li> */}
         <li><a href="https://vickyloebel.com/wp/">Vicky Loebel.com</a> </li>
         <li><a href="https://github.com/vloebel">GitHub</a> </li>

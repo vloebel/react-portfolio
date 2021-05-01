@@ -1,22 +1,23 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  
-  ![banner](./assets/rm-banner.jpg)
 # React Web Developer Portfolio
 ## University of Arizona Bootcamp Module 20 
 ## May 2, 2021
 ### Vicky Loebel
 
-[vloebel.github.io/Portfolio](https://vloebel.github.io/Portfolio/) 
-
+Deployed Resume: [vloebel.github.io/react-resume](https://vloebel.github.io/Portfolio/)   
+GitHub Repo: [vloebel.react-portfolio](https://vloebel.github.io/Portfolio/) 
 ## Description  
 A REACT.js portfolio of  web-development projects written or modified by Vicky Loebel.  
 
 ## Table of Contents  
 * [User_Story](#User_Story)  
 * [Requirements](#Requirements)  
-* [Questions](#Questions)    
-* [License](#License)
+* [Screenshot](#Screenshot)
+* [Questions](#Questions)  
+* [License](#License)    
 
-## User Story
+
+## User_Story
 AS AN employer looking for candidates with experience building single-page applications  
 I WANT to view a potential employee's deployed React portfolio of work samples  
 SO THAT I can assess whether they're a good candidate for an open position  
@@ -44,6 +45,14 @@ SO THAT I can assess whether they're a good candidate for an open position
   * Text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter) 
 
 
-## Website  Mockup
+## Screenshot
 
-![Site mockup] 
+![website example](./src/assets/images/screenshot.jpg) 
+
+## Questions
+  For more information, contact  
+  * [vloebel on GitHub](https://github.com/vloebel)  
+  * [VickyLoebel@gmail.com](mailto:VickyLoebel@gmail.com)
+## License
+This software is distrubted without warranty under the MIT license agreement. To view terms and conditions, visit the [MIT License website](https://opensource.org/licenses/MIT).
+    

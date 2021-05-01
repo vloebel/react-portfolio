@@ -17,7 +17,7 @@ function NavTabs(props) {
               // page w handlePageChange props.
               onClick={() => props.handlePageChange(tab)}
               className={
-                props.currentPage === tab ? 'nav-link active' : 'nav-link'
+                props.currentPage === tab ? 'nav-link-active' : 'nav-link'
               }
             >
               {tab}

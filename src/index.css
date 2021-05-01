@@ -107,9 +107,6 @@ hr {
     gap:5px;
   }
 }
-.nav li{
-  color:red;
-}
 .nav a{
   text-decoration: none;
   color: var(--color1);
@@ -118,6 +115,12 @@ hr {
 .nav a:hover{
   color: var(--color2);
 }
+
+li .nav-link-active{
+  
+  color: var(--color2);
+ 
+ }
 
 h1 {
   font-weight:normal;
@@ -129,9 +132,7 @@ h2 {
   color: var(--color1);
 }
 
-.active {
-  color:red;
-}
+
 li a {
   text-decoration:none;
 }
@@ -316,3 +317,4 @@ color: var(--color1);
 .contact-info a:hover{
   color: var(--light);
 }
+

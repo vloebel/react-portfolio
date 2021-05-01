@@ -1,14 +1,14 @@
 [
   {
     "name": "back2work",
-    "skills": "MVC architecture, mySql/Sequelize, Handlebars.js",
+    "skills": "MVC, mySql/Sequelize, Handlebars.js",
     "srcImg": "assets/images/back2work.jpg",
     "srcAlt": "back2work landing page",
     "appLink": "https://vllback2work.herokuapp.com"
   },
   {
     "name": "Visit America",
-    "skills": "HTML/Materialize, JavaScript, Front-end API",
+    "skills": "HTML/Materialize, JavaScript, API",
     "srcImg": "assets/images/VisitAmerica.jpg",
     "srcAlt": "Visit America",
     "appLink": "https://vloebel.github.io/happycamper"
@@ -21,14 +21,14 @@
     "appLink": "https://vloebel.github.io/day-scheduler"
   },
   {
-    "name": "Any-budget Expense Tracker",
+    "name": "Any-budget expense tracker",
     "skills": "Progressive web applcation, MongoDB",
     "srcImg": "assets/images/any-budget.jpg",
     "srcAlt": "budget example",
     "appLink": "https://vl-any-budget.herokuapp.com/"
   },
   {
-    "name": "Talk-Back: Social Network API/back-end",
+    "name": "Talk-back",
     "skills": "NoSql Mongoose/MongoDB",
     "srcImg": "assets/images/talk-back-insomnia.jpg",
     "srcAlt": "talk-back social media back-end",

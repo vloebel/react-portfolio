@@ -38,11 +38,9 @@ body {
   line-height:1.5;
 }
 
-.page-container{
-  height:75vh;
-}
 
-h1, h2, h3, h4, h5 {
+
+h1, h2, h3, h4, h5, p {
   font-weight: normal;
 }
 
@@ -90,15 +88,18 @@ hr {
 .hr-project {
   width:650px;
   border:1px solid var(--color4);
-  margin: 0, auto;
   margin-top:20px;
   margin-bottom: 20px;
 }
 
+/* .page-container{
+  height:55vh;
+} */
+
 .project-img {
   margin-left: 5%;
   margin-top:1%;
-  max-height:50vh;
+  max-height:50 vh;
 }
 
 @media screen and (max-width:520px){
@@ -258,6 +259,9 @@ textarea {
   flex-basis:80%;
 }
 
+.project-info {
+  padding-left:20px;
+}
 .project-info > h3 {
 color: var(--color1);
 }
@@ -269,7 +273,7 @@ color: var(--color1);
 /* ********* FOOTER STYLES ********** */
 .footer {
   margin:0;
-  margin-top:10px;
+  margin-top:5px;
 }
 
 .horizontal-list {
